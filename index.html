@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Colorful GPA Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h1>GPA Calculator</h1>
+
+    <table id="course-table">
+      <thead>
+        <tr>
+          <th></th>
+          <th>Course (optional)</th>
+          <th>Letter Grade</th>
+          <th>Credits</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="course-body">
+        <tr>
+          <td><input type="checkbox" class="course-check"></td>
+          <td><input type="text" class="course-name" placeholder="Course"></td>
+          <td>
+            <select class="grade">
+              <option value="">--</option>
+              <option value="4.0">A</option>
+              <option value="3.7">A-</option>
+              <option value="3.3">B+</option>
+              <option value="3.0">B</option>
+              <option value="2.7">B-</option>
+              <option value="2.3">C+</option>
+              <option value="2.0">C</option>
+              <option value="1.7">C-</option>
+              <option value="1.0">D</option>
+              <option value="0.0">F</option>
+            </select>
+          </td>
+          <td><input type="number" class="credits" placeholder="Credits"></td>
+          <td><button class="remove-row">✖</button></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button id="add-course" class="add-button">Add row</button>
+    <button id="calculate-gpa" class="calc-button">Calculate</button>
+    <button id="reset" class="reset-button">Reset</button>
+
+    <div id="gpa-display">GPA: <span id="gpa-result">* Click "Calculate" to see result *</span></div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

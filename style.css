@@ -1,0 +1,105 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background-color: #ffe6f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+ 
+  .container {
+    background-color: #ffccff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(255, 182, 193, 0.5);
+    text-align: center;
+    width: 600px;
+    border: 2px solid #ff66b2;
+  }
+  
+  h1 {
+    color: #ff66b2;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  thead {
+    background-color: #ffb3cc;
+  }
+  
+  th {
+    padding: 10px;
+    color: #ff66b2;
+    font-weight: bold;
+    border: 2px solid #ff66b2;
+  }
+  
+  td {
+    padding: 8px;
+    border: 2px solid #ff66b2;
+  }
+  
+  input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid #ff66b2;
+    font-size: 1em;
+    background-color: #fff0f5;
+    color: #ff66b2;
+  }
+  
+  .course-check {
+    transform: scale(1.3);
+    accent-color: #ff66b2;
+  }
+  
+  .add-button, .calc-button, .reset-button {
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(255, 182, 193, 0.5);
+  }
+  
+  .add-button:hover, .calc-button:hover, .reset-button:hover {
+    background-color: #ff3385;
+  }
+  
+  #course-body button.remove-row {
+    background: none;
+    border: none;
+    font-size: 1.2em;
+    color: #ff3385;
+    cursor: pointer;
+  }
+  
+  #course-body button.remove-row:hover {
+    color: #ff66b2;
+  }
+  
+  #gpa-display {
+    font-size: 1.5em;
+    color: #ff66b2;
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  #gpa-result {
+    font-weight: bold;
+    color: #ff3385;
+  }
+  
