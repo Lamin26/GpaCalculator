@@ -16,6 +16,7 @@ function addCourse() {
     <td>
       <select class="grade">
         <option value="">--</option>
+        <option value="4.3">A+</option>
         <option value="4.0">A</option>
         <option value="3.7">A-</option>
         <option value="3.3">B+</option>
@@ -25,6 +26,7 @@ function addCourse() {
         <option value="2.0">C</option>
         <option value="1.7">C-</option>
         <option value="1.0">D</option>
+        <option value="0.7">D-</option>
         <option value="0.0">F</option>
       </select>
     </td>
@@ -62,6 +64,7 @@ function resetCalculator() {
       <td>
         <select class="grade">
           <option value="">--</option>
+          <option value="4.3">A+</option>
           <option value="4.0">A</option>
           <option value="3.7">A-</option>
           <option value="3.3">B+</option>
@@ -71,6 +74,7 @@ function resetCalculator() {
           <option value="2.0">C</option>
           <option value="1.7">C-</option>
           <option value="1.0">D</option>
+          <option value="0.7">D-</option>
           <option value="0.0">F</option>
         </select>
       </td>
